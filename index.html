@@ -4,7 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Stack LP</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles/style.css">
   <!-- Bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -53,7 +55,7 @@
       </nav>
     </section>
     <!-- Navbar End -->
-    <!-- Carousel Strat -->
+    <!-- Carousel Start -->
     <section class="mt-5 pb-5">
       <div id="carouselExampleCaption" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -66,36 +68,37 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <div>
-              <img src="images/cover/cover-1.jpg" class="d-block w-100 rounded-2" alt="...">
+            <div class="bg-dark">
+              <img src="images/cover/cover-1.jpg" class="d-block w-100 rounded-2 opacity-50" alt="...">
             </div>
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
-              <h5 class="display-4 fw-bold">Get Started Digital <br> Learning</h5>
-              <p class="">With the Internet and digital technology becoming an integral aspect of our lives.</p>
-              <a href=""><button class="btn btn-info text-light fs-4 fw-semibold btn-lg pb-3 px-4">Get
+              <h5 class="fw-bold customcarouselheading">Get Started Digital Learning</h5>
+              <p class="customcarouselP">With the Internet and digital technology becoming an integral aspect of our
+                lives.</p>
+              <a href=""><button class="btn btn-lg btn-info text-light">Get
                   Started</button></a>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <div>
-              <img src="images/cover/cover-2.jpg" class="d-block w-100 rounded-2" alt="...">
+            <div class="bg-dark">
+              <img src="images/cover/cover-2.jpg" class="d-block w-100 rounded-2 opacity-50" alt="...">
             </div>
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
-              <h5 class="display-4 fw-bold">Quality Control in every<br> course</h5>
-              <p class="fs-5">Quality is more important than quantity. One home run is much better than two doubles.</p>
-              <a href=""><button class="btn btn-info text-light fs-4 fw-semibold btn-lg pb-3 px-4">Get
+              <h5 class="fw-bold customcarouselheading">Quality Control in every course</h5>
+              <p class="customcarouselP">Quality is more important than quantity. One home run is much better than two
+                doubles.</p>
+              <a href=""><button class="btn btn-lg btn-info text-light">Get
                   Started</button></a>
             </div>
           </div>
           <div class="carousel-item">
-            <div>
-              <img src="images/cover/cover-3.jpg" class="d-block w-100 rounded-2" alt="...">
+            <div class="bg-dark">
+              <img src="images/cover/cover-3.jpg" class="d-block w-100 rounded-2 opacity-50" alt="...">
             </div>
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
-              <h5 class="display-4 fw-bold">Learn From Anywhere In<br></be> This World</h5>
-              <p class="fs-5">You will experience a mind-blowing learning platform ever. Distance is not a matter when
-                you want to learn.</p>
-              <a href=""><button class="btn btn-info text-light fs-4 fw-semibold btn-lg pb-3 px-4">Get
+              <h5 class="fw-bold customcarouselheading">Learn From Anywhere</h5>
+              <p class="customcarouselP">You will experience a mind-blowing online learning platform ever.</p>
+              <a href=""><button class="btn btn-lg btn-info text-light">Get
                   Started</button></a>
             </div>
           </div>
@@ -120,7 +123,7 @@
   <main>
     <!-- Course Section Start -->
     <section class="container mt-5 text-center">
-      <h2 class="display-4 fw-semibold">Discover Our Popular<br>
+      <h2 class="display-5 fw-semibold">Discover Our Popular<br>
         Courses</h2>
       <p class="fs-5 pt-2 pb-5">We will serve you our best for a better learning experience that will not disappoint
         you.</p>
@@ -202,21 +205,18 @@
     <section class="container">
       <div class="card my-5">
         <div class="row g-0 d-flex flex-md-column flex-lg-row">
-          <div class="col-12 col-md-4 col-lg-4">
+          <div class="col-12 col-md-12 col-lg-6">
             <div class="">
               <img src="images/working.png" class="img-fluid w-100 rounded-start" alt="...">
             </div>
           </div>
-          <div class="col-12 col-md-8 col-lg-8">
+          <div class="col-12 col-md-12 col-lg-6">
             <div class="card-body">
               <h5 class="card-title display-4 fw-semibold">Explore The elearning Institute</h5>
-              <p class="card-text fs-5 text-muted">There are many variations of passages of Lorem Ipsum available, but
-                the
-                majority have suffered alteration in some form, by injected humour, or
-                randomised words which don't look even slightly believable. If you are going
-                to use a passage of Lorem Ipsum, you need to be sure.</p>
-              <p class="fs-5 text-muted">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                generators on the Internet tend to repeat predefined.</p>
+              <p class="card-text fs-5 text-muted">Regardless of what stage of life you are in, online learning
+                platforms provide a convenient way for you to grow in your career or start something new entirely.
+                Overall, Coursera is our top choice for an online learning platform because of its variety of courses
+                and official accreditation. </p>
               <div class="d-flex">
                 <div class="me-4">
                   <h3 class="display-5 fw-semibold">3.2k+</h3>
@@ -231,7 +231,7 @@
                   <p class="fs-5 fw-semibold text-muted">Rating & Review</p>
                 </div>
               </div>
-              <div class="mt-2">
+              <div class="mt-2 text-center text-md-center text-lg-start">
                 <a href=""><button class="btn btn-lg btn-info fw-bold text-light py-2 px-4">Read More</button></a>
               </div>
             </div>
@@ -244,9 +244,9 @@
     <section class="container my-5 pb-5">
       <div
         class="row bg-info rounded d-flex align-items-center flex-column flex-md-column flex-lg-row px-5 pb-5 pb-lg-0">
-        <div class="col-12 col-md-12 col-lg-8">
+        <div class="col-12 col-md-12 col-lg-8 text-center text-lg-start">
           <h3 class="display-5 fw-semibold text-light pt-5 pb-3">Ready to join?</h3>
-          <p class="fs-5 text-light w-75 pb-5">If you are interested in our course then you can join our community.
+          <p class="fs-5 text-light pb-5">If you are interested in our course then you can join our community. <br>
             There you could find out the answer to your curious question</p>
         </div>
         <div class="col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
@@ -424,16 +424,16 @@
           <!-- Question-1 -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button p-4 collapsed fs-5 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                aria-expanded="true" aria-controls="collapseOne">
+              <button class="accordion-button p-4 collapsed fs-5 fw-semibold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 What is the difference between Grid and Flex?
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
               data-bs-parent="#accordionExample">
               <div class="accordion-body fs-5 text-muted">
-                The basic difference between<strong> CSS Grid Layout and CSS Flexbox Layout is that flexbox</strong> is
-                designed for layout in one dimension - either a row or a column. <strong>Grid</strong> is designed for a
+                The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox is
+                designed for layout in one dimension - either a row or a column. Grid is designed for a
                 two-dimensional layout - rows, and columns at the same time. The two specifications share some common
                 features, however, and if you have already learned how to use flexbox, the similarities should help you
                 get to grips with Grid.
@@ -454,16 +454,7 @@
                 The main difference between Bootstrap and Tailwind is that Bootstrap pre-built components that provide a
                 responsive UI (user interface) kit. On the other hand, Tailwind comes with predesigned widgets that
                 facilitate web developers to design a website from scratch. Both Bootstrap and Tailwind are two of the
-                best front-end CSS framework used worldwide. <br>
-                Bootstrap is a front-end framework to develop websites based on the CSS framework. It offers pre-built
-                interface elements such as navigation, typography, buttons, and forms. The templates provided by
-                Bootstrap are designed using either JavaScript or CSS (Cascading Style Sheets). Many web designers
-                recommend bootstrap because it creates responsive and fast websites. <br>
-
-                Tailwind is also a CSS framework responsible for creating a website. Tailwind is very trendy among web
-                developers. It is used by about 260k web developers around the world. Tailwind offers excellent control
-                over its features, and a developer feels free to design. The styling process in Tailwind CSS is speedy
-                than other front-end frameworks.
+                best front-end CSS framework used worldwide.
               </div>
             </div>
           </div>
@@ -508,7 +499,7 @@
     </section>
     <!-- FAQ Section End -->
     <!-- Client Section Start -->
-    <section class="container text-center d-none d-md-none d-lg-block">
+    <section class="container text-center d-none d-md-none d-lg-block pb-5">
       <h2 class="display-5 fw-bold">Trusted by over 800+ companies</h2>
       <div class="d-flex justify-content-center align-items-center my-5">
         <div class="me-5"><img src="images/company/company-1.png" class="img-fluid" alt=""></div>
@@ -522,6 +513,31 @@
     <!-- Client Section End -->
   </main>
   <!-- Main Section End -->
+  <!-- Footer Area Start -->
+  <footer class="text-center bg-dark py-5">
+    <h2 class="display-4 fw-semibold text-light pt-5">Stack LP</h2>
+    <p class="text-light pt-3">Office 52, Building 08 <br> Dhaka, Bangladesh</p>
+    <div class="d-flex justify-content-center">
+      <a class="text-decoration-none" href="">
+        <p class="text-light me-3">Privacy Ploicy</p>
+      </a>
+      <span class="text-light me-3">|</span>
+      <a class="text-decoration-none" href="">
+        <p class="text-light">Terms of use</p>
+      </a>
+    </div>
+    <div class="fs-2">
+      <a class="text-decoration-none" href="https://www.facebook.com/" target="_blank"><i
+          class="fa-brands fa-facebook me-2 text-light iconcustombg p-2 rounded-5"></i></a>
+      <a class="text-decoration-none" href="https://twitter.com/" target="_blank"><i
+          class="fa-brands fa-twitter me-2 text-light iconcustombg p-2 rounded-5"></i></a>
+      <a class="text-decoration-none" href="https://www.instagram.com/" target="_blank"><i
+          class="fa-brands fa-instagram me-2 text-light iconcustombg p-2 rounded-5"></i></a>
+      <a class="text-decoration-none" href="https://dribbble.com/" target="_blank"><i
+          class="fa-solid fa-basketball me-2 text-light iconcustombg p-2 rounded-5"></i></a>
+    </div>
+  </footer>
+  <!-- Footer Area End -->
   <!-- Script for Modal -->
   <script>const myModal = document.getElementById('myModal')
     const myInput = document.getElementById('myInput')
